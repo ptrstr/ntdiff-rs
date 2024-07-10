@@ -1,0 +1,12 @@
+[package]
+name = "ntdiff-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["ptrstr <ptrstr@protonmail.com>"]
+description = "Ntdiff Rust bindings"
+license = "MIT"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.69.4"
