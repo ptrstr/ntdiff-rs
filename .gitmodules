@@ -1,3 +1,4 @@
 [submodule "ntdiff"]
 	path = ntdiff
 	url = https://github.com/ntdiff/headers
+	shallow = true
