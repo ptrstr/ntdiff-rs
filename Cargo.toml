@@ -6,7 +6,17 @@ authors = ["ptrstr <ptrstr@protonmail.com>"]
 description = "Ntdiff Rust bindings"
 license = "MIT"
 
+[features]
+default = ["build"]
+std = []
+build = []
+hal = []
+ntdll = []
+ntoskrnl = []
+ole32 = []
+
 [dependencies]
 
 [build-dependencies]
 bindgen = "0.69.4"
+tempdir = "0.3.7"
